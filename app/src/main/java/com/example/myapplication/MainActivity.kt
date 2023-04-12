@@ -19,9 +19,14 @@ class MainActivity : AppCompatActivity() {
         recyclerView.layoutManager=LinearLayoutManager(this)
 
         val data =ArrayList<EmployeeModelClass>()
-        for (i in 1..10){
-            data.add(EmployeeModelClass("Vijay $i","Android Developer",R.drawable.ic_launcher_foreground))
-                    }
+
+            data.add(EmployeeModelClass("Heena Relwani","Android Developer",R.drawable.a))
+            data.add(EmployeeModelClass("Sourabh Singh","Associate SDE",R.drawable.b))
+            data.add(EmployeeModelClass("Raveen Deep","Software Developer",R.drawable.c))
+            data.add(EmployeeModelClass("Shilpi Verma","Web Developer",R.drawable.d))
+            data.add(EmployeeModelClass("Neha Narware","HR at CodeNicely",R.drawable.e))
+            data.add(EmployeeModelClass("Heena Relwani","HR at CodeNicely",R.drawable.f))
+
 
         val adapter=CustomAdapter(data)
 
