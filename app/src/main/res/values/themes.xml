@@ -13,4 +13,8 @@
         <item name="android:statusBarColor">@color/LIGHT_PURPLE</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="bottomNavigationBar">
+        <item name="colorPrimary">@color/white</item>
+    </style>
 </resources>

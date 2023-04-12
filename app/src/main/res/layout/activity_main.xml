@@ -14,15 +14,13 @@
 
     </androidx.recyclerview.widget.RecyclerView>
 
-    <com.adityaikhbalm.bottomnavigationviewrounded.BottomNavigationViewRounded
+    <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/bottom_navigation"
         app:menu="@menu/bottom_navigation"
-
-        android:background="@color/DEEP_PINK"
-        app:itemIconTint="@color/white"
-
+android:theme="@style/bottomNavigationBar"
+        android:background="@drawable/curve_nev_bar"
         app:layout_constraintBottom_toBottomOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
