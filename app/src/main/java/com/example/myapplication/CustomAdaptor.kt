@@ -5,8 +5,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
-import com.example.myapplication.R
 
 class CustomAdapter(private val mList: List<EmployeeModelClass>) : RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
 
@@ -32,6 +32,12 @@ class CustomAdapter(private val mList: List<EmployeeModelClass>) : RecyclerView.
         holder.name.text = EmployeeModelClass.name
 
         holder.role.text=EmployeeModelClass.role
+        holder.itemView.setOnClickListener(object: View.OnClickListener {
+            override fun onClick(v: View?) {
+                Toast.makeText(v?.getContext(), "${holder.name.text}", Toast.LENGTH_SHORT).show();
+
+            }
+        })
 
     }
 

@@ -20,12 +20,12 @@ class MainActivity : AppCompatActivity() {
 
         val data =ArrayList<EmployeeModelClass>()
 
-            data.add(EmployeeModelClass("Heena Relwani","Android Developer",R.drawable.a))
-            data.add(EmployeeModelClass("Sourabh Singh","Associate SDE",R.drawable.b))
-            data.add(EmployeeModelClass("Raveen Deep","Software Developer",R.drawable.c))
-            data.add(EmployeeModelClass("Shilpi Verma","Web Developer",R.drawable.d))
-            data.add(EmployeeModelClass("Neha Narware","HR at CodeNicely",R.drawable.e))
-            data.add(EmployeeModelClass("Heena Relwani","HR at CodeNicely",R.drawable.f))
+        data.add(EmployeeModelClass("Heena Relwani","Android Developer",R.drawable.a))
+        data.add(EmployeeModelClass("Sourabh Singh","Associate SDE",R.drawable.b))
+        data.add(EmployeeModelClass("Raveen Deep","Software Developer",R.drawable.c))
+        data.add(EmployeeModelClass("Shilpi Verma","Web Developer",R.drawable.d))
+        data.add(EmployeeModelClass("Neha Narware","HR at CodeNicely",R.drawable.e))
+        data.add(EmployeeModelClass("Khushi Basrani","HR at CodeNicely",R.drawable.f))
 
 
         val adapter=CustomAdapter(data)
